@@ -12,7 +12,7 @@ export default defineConfig({
   base: "./",
   build: {
     rollupOptions: {
-      external: ['#minpath']
-    }
-  }
+      external: ['#minproc'], // Ensure this matches the error message
+    },
+  },
 });
